@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>test</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>   
+ <script type="text/javascript">  
+  function openWindow(){ 
+    if(confirm("you sure open new tab")){
+      var url = prompt("Enter a website","http://www.imooc.com/");  
+      window.open(url,"_blank","toolbar=no, menubar=no, scrollbars=yes,  width=400, height=400");
+    }
+    else{
+      url.close();
+    }
+  }  
+ </script> 
+ </head> 
+ <body> 
+      <input type="button" value="open new website" onclick="openWindow()" /> 
+ </body>
+</html>
